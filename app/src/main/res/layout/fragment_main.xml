@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:id="@+id/fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/passMake"
+        android:id="@+id/passMake"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherToCodeEnter"
+        android:id="@+id/teacherToCodeEnter"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/dateEntered"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/teacherToCode"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/teacherToCodeEnter"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherSelected"
+        android:id="@+id/textView"
+        android:layout_below="@+id/teacherToCode"
+        android:layout_alignLeft="@+id/teacherSelectedName"
+        android:layout_alignStart="@+id/teacherSelectedName"
+        android:layout_marginTop="39dp"
+        android:textColor="#ff000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passMakeButton"
+        android:id="@+id/passMakeButton"
+        android:layout_below="@+id/checkMakePass"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherSelectedName"
+        android:id="@+id/teacherSelectedName"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/teacherToCode"
+        android:layout_alignStart="@+id/teacherToCode"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dateSelected"
+        android:id="@+id/dateSelected"
+        android:layout_below="@+id/passMake"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/dateEntered"
+        android:layout_marginTop="23dp"
+        android:selectAllOnFocus="false"
+        android:layout_below="@+id/dateExamples"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/dateExamples"
+        android:id="@+id/dateExamples"
+        android:layout_below="@+id/dateSelected"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkMakePass"
+        android:id="@+id/checkMakePass"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/teacherSelectedName"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

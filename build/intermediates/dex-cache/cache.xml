@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/classes-2f504ad4fef76101591b412d634d52fd5471e7f5.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-bbea4d718a22b52432673f34ee88884a92caca4a.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/classes-4e12f4409f01d5ba59ab651af3cbc414b9fb4aab.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-59440ff55c9c9908fd0da1f1b87e936fdb015429.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/classes-3606c86302e65542b84117dbfeb3733eb671fcf9.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/libs/Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/Parse-1.8.0-b68a8374b566feae37ed6b1fb29c381955f586ea.jar" />
+    </item>
+    <item
+        jar="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/chapatel/floobits/share/coolcobra1234/Tutorial-Pass-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-277e7d8a03830a1fa2f65183f2b8f22817c31142.jar" />
+    </item>
+
+</items>

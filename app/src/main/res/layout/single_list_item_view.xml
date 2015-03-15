@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pass_label"
+        android:id="@+id/pass_label"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/passHere"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/passHere"
+        android:id="@+id/passHere"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherFromCodeEnter"
+        android:id="@+id/teacherFromCodeEnter"
+        android:layout_below="@+id/pass_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textColor="#ff000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/teacherFromCode"
+        android:layout_below="@+id/teacherFromCodeEnter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passCheckAgainButton"
+        android:id="@+id/passCheckAgainButton"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/teacherSelectedName2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passCompleteButton"
+        android:id="@+id/passCompleteButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherSelected2"
+        android:id="@+id/teacherSelected2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/teacherFromCode"
+        android:layout_alignStart="@+id/teacherFromCode"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/teacherSelectedName2"
+        android:id="@+id/teacherSelectedName2"
+        android:layout_below="@+id/teacherSelected2"
+        android:layout_alignLeft="@+id/teacherSelected2"
+        android:layout_alignStart="@+id/teacherSelected2"
+        android:textColor="#ff000000"/>
+</RelativeLayout>

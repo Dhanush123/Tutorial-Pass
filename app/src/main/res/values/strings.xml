@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tutorial Pass</string>
+    <string name="title_section1">Make Pass</string>
+    <string name="title_section2">See All Passes</string>
+    <string name="title_section3">Edit Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="teacherToCodeEnter">Teacher To code:</string>
+    <string name="passMake">Make Tutorial Pass</string>
+    <string name="teacherSelected">Teacher selected:</string>
+    <string name="passMakeButton">Make Pass</string>
+    <string name="teacherSelectedName">None</string>
+    <string name="dateSelect">Select Date</string>
+    <string name="dateSelected">Date Selected: (#/##/##)</string>
+    <string name="dateExamples">Ex: 12/31/14 or 1/1/15</string>
+    <string name="checkMakePass">Check/Update Pass</string>
+    <string name="textView1">Hi</string>
+    <string name="textView2"></string>
+    <string name="passHere">Pass:</string>
+    <string name="pass_label">Pass Info</string>
+    <string name="teacherFromCodeEnter">Teacher From Code:</string>
+    <string name="passCheckAgainButton">Check/Update Pass</string>
+    <string name="passCompleteButton">Complete Pass</string>
+    <string name="teacherSelectedName2">None</string>
+    <string name="teacherSelected2">Teacher Selected:</string>
+    <string name="nameAndIDShow">Name and ID not set</string>
+    <string name="nameHere">Name:</string>
+    <string name="IDHere">ID (6 Digit #)</string>
+    <string name="checkNameAndID"><![CDATA[Check Name & ID]]></string>
+    <string name="setNameAndID"><![CDATA[Set Name & ID]]></string>
+</resources>
